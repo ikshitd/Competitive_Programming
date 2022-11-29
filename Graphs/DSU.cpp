@@ -82,7 +82,7 @@ void unite(int x , int y , int parent[]){
 	}
 }
 bool containscycle(){
-	int *parent = new int [n] ;
+	int *parent = new int [n + 1] ;
 	for(int i = 1 ; i<= n ; i++){
 		parent[i] = -1 ; 
 	}
